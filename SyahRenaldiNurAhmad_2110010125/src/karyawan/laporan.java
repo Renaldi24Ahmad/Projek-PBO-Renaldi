@@ -9,24 +9,24 @@ package karyawan;
  * @author Rnldi
  */
 public class laporan {
-    private String id_laporan;
+    private int id_laporan;
     private int id_admin;
-    private String id_manager;
-    private String periode;
+    private int id_manager;
+    private int periode;
     private String hasil;      
     
-    public laporan (String id_laporan, int id_admin, String id_manager, String periode, String hasil){
+    public laporan (int id_laporan, int id_admin, int id_manager, int periode, String hasil){
         this.id_laporan=id_laporan;
         this.id_admin=id_admin;
         this.id_manager=id_manager;
         this.periode=periode;
         this.hasil=hasil;
     }
-    public String getid_laporanl(){
+    public int getid_laporanl(){
         return id_laporan;
     }
     
-    public void setid_laporan(String id_laporan){
+    public void setid_laporan(int id_laporan){
         this.id_laporan=id_laporan;
     }
 
@@ -38,19 +38,19 @@ public class laporan {
         this.id_admin=id_admin;
     }
     
-    public String getid_manager(){
+    public int getid_manager(){
         return id_manager;
     }
     
-    public void setid_manager(String id_manager){
+    public void setid_manager(int id_manager){
         this.id_manager=id_manager;
     }
     
-    public String getperiode(){
+    public int getperiode(){
         return periode;
     }
     
-    public void setperioder(String periode){
+    public void setperioder(int periode){
         this.periode=periode;
     }
     

@@ -9,22 +9,22 @@ package karyawan;
  * @author Rnldi
  */
 public class kriteria {
-    private String id_kriteria;
+    private int id_kriteria;
     private int id_admin;
     private String nama_kriteria;
     private String bobot_kriteria;
     
-    public kriteria (String id_kriteria, int id_admin, String nama_kriteria, String bobot_kriteria, String hasil){
+    public kriteria (int id_kriteria, int id_admin, String nama_kriteria, String bobot_kriteria, String hasil){
         this.id_kriteria=id_kriteria;
         this.id_admin=id_admin;
         this.nama_kriteria=nama_kriteria;
         this.bobot_kriteria=bobot_kriteria;
     }
-    public String getid_kriteria(){
+    public int getid_kriteria(){
         return id_kriteria;
     }
     
-    public void setid_kriteria(String id_kriteria){
+    public void setid_kriteria(int id_kriteria){
         this.id_kriteria=id_kriteria;
     }
 

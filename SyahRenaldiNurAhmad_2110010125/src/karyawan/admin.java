@@ -11,7 +11,7 @@ package karyawan;
 public class admin {
     private int id_admin;
     private String nama_admin;
-    private String tgl_lahir;
+    private int tgl_lahir;
     private String alamat;
     private String kota;
     private int tahun_gabung;
@@ -20,7 +20,7 @@ public class admin {
     private String username;
     private String password;
     
-    public admin (int id_admin, String nama_admin, String tgl_lahir, String alamat, String kota, int tahun_gabung, int nomor_hp, String email, String username, String password){
+    public admin (int id_admin, String nama_admin, int tgl_lahir, String alamat, String kota, int tahun_gabung, int nomor_hp, String email, String username, String password){
         this.id_admin=id_admin;
         this.nama_admin=nama_admin;
         this.tgl_lahir=tgl_lahir;
@@ -49,11 +49,11 @@ public class admin {
         this.nama_admin=nama_admin;
     }
     
-    public String gettgl_lahir(){
+    public int gettgl_lahir(){
         return tgl_lahir;
     }
     
-    public void settgl_lahir(String tgl_lahir){
+    public void settgl_lahir(int tgl_lahir){
         this.tgl_lahir=tgl_lahir;
     }
     

@@ -9,18 +9,18 @@ package karyawan;
  * @author Rnldi
  */
 public class data_karyawan {
-    private String nik;
+    private int nik;
     private int id_admin;
     private String nama_karyawan;
-    private String tgl_lahir;
+    private int tgl_lahir;
     private String alamat;
     private String kota;
-    private String divisi;
+    private int divisi;
     private String jabatan;
     private int tahun_gabung;
     private int nomor_hp;       
     
-    public data_karyawan (String nik, int id_admin, String nama_karyawan, String tgl_lahir, String alamat, String kota, String divisi, String jabatan, int tahun_gabung, int nomor_hp){
+    public data_karyawan (int nik, int id_admin, String nama_karyawan, int tgl_lahir, String alamat, String kota, int divisi, String jabatan, int tahun_gabung, int nomor_hp){
         this.nik=nik;
         this.id_admin=id_admin;
         this.nama_karyawan=nama_karyawan;
@@ -32,11 +32,11 @@ public class data_karyawan {
         this.tahun_gabung=tahun_gabung;
         this.nomor_hp=nomor_hp;
     }
-    public String getnik(){
+    public int getnik(){
         return nik;
     }
     
-    public void setnik(String nik){
+    public void setnik(int nik){
         this.nik=nik;
     }
 
@@ -56,11 +56,11 @@ public class data_karyawan {
         this.nama_karyawan=nama_karyawan;
     }
     
-    public String gettgl_lahir(){
+    public int gettgl_lahir(){
         return tgl_lahir;
     }
     
-    public void settgl_lahir(String tgl_lahir){
+    public void settgl_lahir(int tgl_lahir){
         this.tgl_lahir=tgl_lahir;
     }
     
@@ -80,11 +80,11 @@ public class data_karyawan {
         this.kota=kota;
     }
 
-    public String getdivisi(){
+    public int getdivisi(){
         return divisi;
     }
     
-    public void setdivisie(String divisi){
+    public void setdivisie(int divisi){
         this.divisi=divisi;
     }
     

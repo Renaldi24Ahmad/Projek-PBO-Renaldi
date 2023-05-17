@@ -11,7 +11,7 @@ package karyawan;
 public class manager {
     private int id_manager;
     private String nama_manager;
-    private String tgl_lahir;
+    private int tgl_lahir;
     private String alamat;
     private String kota;
     private int tahun_gabung;
@@ -20,7 +20,7 @@ public class manager {
     private String username;
     private String password;
     
-    public manager (int id_manager, String nama_manager, String tgl_lahir, String alamat, String kota, int tahun_gabung, int nomor_hp, String email, String username, String password){
+    public manager (int id_manager, String nama_manager, int tgl_lahir, String alamat, String kota, int tahun_gabung, int nomor_hp, String email, String username, String password){
         this.id_manager=id_manager;
         this.nama_manager=nama_manager;
         this.tgl_lahir=tgl_lahir;
@@ -49,11 +49,11 @@ public class manager {
         this.nama_manager=nama_manager;
     }
     
-    public String gettgl_lahir(){
+    public int gettgl_lahir(){
         return tgl_lahir;
     }
     
-    public void settgl_lahir(String tgl_lahir){
+    public void settgl_lahir(int tgl_lahir){
         this.tgl_lahir=tgl_lahir;
     }
     
