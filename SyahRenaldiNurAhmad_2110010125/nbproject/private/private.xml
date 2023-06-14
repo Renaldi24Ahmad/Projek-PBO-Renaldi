@@ -3,12 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/karyawan/data_karyawan.java</file>
-            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/karyawan/manager.java</file>
-            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/karyawan/admin.java</file>
-            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/karyawan/kriteria.java</file>
-            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/karyawan/login.java</file>
-            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/karyawan/laporan.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/dataset/dataLogin.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/mainclass/main.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/form/frameKaryawan.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/dataset/dataKriteria.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/dataset/dataKaryawan.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/dataset/dataLaporan.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/form/frameKriteria.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/dataset/dataManager.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/dataset/dataAdmin.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/form/frameAdmin.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/form/frameUtama.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/form/frameLaporan.java</file>
+            <file>file:/C:/Users/Rnldi/Documents/NetBeansProjects/SyahRenaldiNurAhmad_2110010125/src/form/frameManager.java</file>
         </group>
     </open-files>
 </project-private>
